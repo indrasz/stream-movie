@@ -1,0 +1,46 @@
+.movie-card {
+  border-radius: 24px;
+  background-color: white;
+  padding: 20px;
+}
+
+.movie-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label-detail {
+  color: var(--grey-secondary);
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.title-detail {
+  font-weight: 600;
+  color: var(--navy);
+  font-size: 18px;
+  max-width: 200px;
+}
+
+.btn-fav {
+  padding: 0 !important;
+  border: none !important;
+}
+
+.btn-fav > svg {
+  fill: transparent;
+}
+
+.btn-fav > svg > path {
+  stroke: var(--red);
+}
+
+.btn-fav.active > svg {
+  fill: var(--red);
+}
+
+.image-movie {
+  border-radius: 6px;
+  object-fit: cover;
+}
