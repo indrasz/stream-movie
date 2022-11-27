@@ -20,11 +20,6 @@ module.exports = {
                     },
                 ]
             },
-            {
-                test: /\.(gif|png|jpe?g|svg)$/i,
-                type : 'assets/resource/',
-                loader: 'file-loader',
-            },
         ]
     },
     plugins: [

@@ -11,7 +11,7 @@ class SearchInput extends HTMLElement {
         <input
           class="form-control"
           type="text"
-          placeholder="Search shoes"
+          placeholder="Search Movies"
           name="searchBar" 
           id="searchBar"
         />
